@@ -1,13 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #c6ebf0;
-}
-
 .testimonial {
 
     padding: 10px;
@@ -15,22 +5,22 @@ body {
     width: 300px;
     background-color: #f7ecec;
 
-}
-
-.testimonial__photo {
+    &__photo {
         border-radius: 85px;
         border: 8px solid #fff;
         margin: 0 auto;
     }
 
-.testimonial__title {
+    &__title {
         color: blue;
     }
 
-.testimonial__subtitle {
+    &__subtitle {
         color: orange;
     }
 
-.testimonial > p {
+    & > p {
         line-height: 1.8rem;
     }
+
+}
